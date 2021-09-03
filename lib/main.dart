@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_apps/screen.dart';
 import 'package:flutter_apps/footer_page.dart';
 import 'package:flutter_apps/master_page.dart';
+import 'package:flutter_apps/inputwrapper.dart';
 
 import 'screen.dart';
 import 'footer_page.dart';
-import 'screen.dart';
+import 'inputwrapper.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.brown,
       ),
       //home:Header(),
-      home: HomeScreen(),
+      home: Inputwrapper(),
 
 
 
