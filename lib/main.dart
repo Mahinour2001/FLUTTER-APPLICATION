@@ -7,6 +7,8 @@ import 'package:flutter_apps/inputwrapper.dart';
 import 'screen.dart';
 import 'footer_page.dart';
 import 'inputwrapper.dart';
+import 'signIn.dart';
+import 'signUp.dart';
 
 void main() {
   runApp(MyApp());
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.brown,
       ),
       //home:Header(),
-      home: Header(),
+      home: SignIn(),
 
 
 
